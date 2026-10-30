@@ -1,3 +1,5 @@
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> Stationery Shop | Products</title>
+    <title>Stationery Shop | Products</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -17,12 +19,17 @@
 <body>
 
     <!-- Ramisa | 2312165 -->
+
+    <!-- Header -->
+
     <header class="header">
 
         <h1>Stationery Shop</h1>
 
     </header>
 
+
+    <!-- Navigation Bar -->
 
     <ul class="navbar">
 
@@ -32,6 +39,8 @@
 
     </ul>
 
+
+    <!-- Products Page -->
 
     <main>
 
@@ -64,7 +73,6 @@
 
                 <p>Price: Tk. 150</p>
 
-
             </div>
 
 
@@ -75,7 +83,6 @@
                 <h3>Pen Set</h3>
 
                 <p>Price: Tk. 100</p>
-
 
             </div>
 
@@ -88,11 +95,24 @@
 
                 <p>Price: Tk. 200</p>
 
-            
-
             </div>
 
         </section>
+
+
+        <!-- Buy Button -->
+
+        <div class="buy-section">
+
+            <button onclick="buyProduct()">Buy Now</button>
+
+            <br><br>
+
+            Result:
+
+            <input type="text" id="productResult" readonly>
+
+        </div>
 
     </main>
 

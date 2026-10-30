@@ -1,3 +1,11 @@
+function buyProduct() {
+
+    document.getElementById("productResult").value =
+        "Thank you for choosing our product!";
+
+}
+
+
 
 function sendMessage() {
 
@@ -6,7 +14,7 @@ function sendMessage() {
 
     var message = document.getElementById("customerMessage").value;
 
-    document.getElementById("result").value = "Thank you, Message received.";
+     document.getElementById("result").value = "Thank you Message received.";
 
  
 

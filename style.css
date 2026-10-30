@@ -190,7 +190,31 @@ p {
 .product-box h3 {
     color: #ae734e;
 }
+/* Buy Section */
 
+.buy-section {
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.buy-section button {
+    background-color: #5b3924;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.buy-section button:hover {
+    background-color: #333333;
+}
+
+.buy-section input {
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+}
 
 /* Contact Container */
 
