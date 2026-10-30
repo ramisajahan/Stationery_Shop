@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
-    color: #f4e07a;
+    color: #0b0f10;
     font-family: Arial, sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
 /* Header */
 
 .header {
-    background-color: #f5ba96;
+    background-color: #c8b4a1;
     padding: 20px;
     text-align: center;
 }
@@ -136,7 +136,7 @@ p {
     background-color: #333333;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .footer p {
@@ -228,7 +228,7 @@ p {
 }
 
 
-/* Contact Images */
+
 
 .contact-images img {
     width: 300px;
@@ -249,7 +249,7 @@ p {
 }
 
 
-/* Contact Inputs */
+
 
 .contact-form input{
     width: 80%;
