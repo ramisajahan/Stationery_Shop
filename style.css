@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #f4e07a;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #f5ba96;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    margin: 10px;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    list-style-type: none;
+}
+
+
+/* Navbar List Items */
+
+.navbar li {
+    float: left;
+}
+
+
+/* Navbar Links */
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+/* Navbar Hover Effect */
+
+.navbar li a:hover {
+    background-color: #0c0c0c;
+    color: #f4c27a;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+
+    /* FLEXBOX */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* Home Text */
+
+.home-text {
+    width: 50%;
+}
+
+
+/* Headings */
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #ae734e;
+}
+
+
+/* Paragraphs */
+
+p {
+    margin: 15px;
+    padding: 10px;
+    color: #333333;
+    font-size: 16px;
+}
+
+
+/* Home Images */
+
+.home-images {
+    width: 50%;
+}
+
+.home-images img {
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0 0 8px gray;
+    object-fit: cover;
+}
+
+
+/* Buttons */
+
+button {
+    background-color: #5b3924;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+
+/* Why Choose Us Section */
+
+.why-us {
+    width: 85%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e6e6e6;
+    text-align: center;
+    box-shadow: 0 0 8px gray;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer p {
+    background-color: transparent;
+    color: white;
+}
+
