@@ -192,6 +192,66 @@ p {
 }
 
 
+/* Contact Container */
+
+.contact-container {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 10px gray;
+}
+
+
+/* Contact Images */
+
+.contact-images img {
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+    box-shadow: 0 0 8px gray;
+    object-fit: cover;
+}
+
+
+/* Contact Form */
+
+.contact-form {
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+
+/* Contact Inputs */
+
+.contact-form input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid gray;
+}
+
+
+/* Contact Button */
+
+.contact-form button {
+    background-color: #5b3924;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #333333;
+}
+
+
+
+
 
 
 
